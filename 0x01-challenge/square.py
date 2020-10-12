@@ -2,8 +2,11 @@
 """ file for the square class """
 
 
-class square():
-    """ class for a square """
+class Square():
+    """
+    class for a square
+    """
+
     width = 0
     height = 0
 
@@ -26,7 +29,7 @@ class square():
 
 if __name__ == "__main__":
 
-    s = square(width=12, height=9)
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.permiter_of_my_square())
